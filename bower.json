@@ -1,0 +1,23 @@
+{
+  "name": "angular-jqwhen",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dizel3d/angular-jqwhen",
+  "authors": [
+    "Valentin Sarychev"
+  ],
+  "description": "Make Angular promise from jQuery promise",
+  "main": "dist/angular-jqwhen.js",
+  "keywords": [
+    "angular",
+    "jquery",
+    "promise"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
