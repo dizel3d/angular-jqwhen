@@ -1,6 +1,6 @@
 {
   "name": "angular-jqwhen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AngularJS to jQuery promise converter",
   "main": "Gruntfile.js",
   "scripts": {
