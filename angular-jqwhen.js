@@ -1,7 +1,6 @@
 angular.module('$q.jqWhen', [])
-
-// Инжектирование в сервис $q метода jqWhen, который возвращает объект jQuery Promise
     .config(['$provide', function($provide) {
+        // Injection of method jqWhen into service $q, which returns jQuery Promise object
         $provide.decorator('$q', ['$delegate', function($delegate) {
             $delegate.jqWhen = function(obj) {
                 var deferred = jQuery.Deferred();
